@@ -1,15 +1,13 @@
-const express = require('express');
-
 module.exports = {
     calculate: function (name, birth) {
-        var name_code = 0;
-        var nameLength = name.length;
-        for (var i = 0; i < nameLength; i++) {
-            var currCode = name.charCodeAt(i);
-            name_code += currCode;
+        var newChar = name + birth;
+        var char_code = 0;
+        var charLength = newChar.length;
+        for (var i = 0; i < charLength; i++) {
+            var currCode = newChar.charCodeAt(i);
+            char_code += currCode;
         }
-        var name_index = name_code % 10;
-        return name_index;
+        return char_code % 10;
     }
 }
 

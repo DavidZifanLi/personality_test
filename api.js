@@ -72,7 +72,7 @@ router.get('/name_birth_test', function(req, res) {
         return res.status(400).end();
     }
 
-    var index = tools.calculate(name);
+    var index = tools.calculate(name, birth);
 
     Model.findOne({"index": index},
         function(err, data) {

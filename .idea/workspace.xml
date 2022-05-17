@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e83652b-5d4e-4c05-b257-00257b01b999" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/functions.js" afterDir="false" />
+    <list default="true" id="5e83652b-5d4e-4c05-b257-00257b01b999" name="Changes" comment="Add functions.js. Add function calculate that can use name to get an test index.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models.js" beforeDir="false" afterPath="$PROJECT_DIR$/models.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/functions.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,8 +65,16 @@
       <workItem from="1652620007895" duration="2788000" />
       <workItem from="1652623973441" duration="607000" />
       <workItem from="1652713448212" duration="16247000" />
-      <workItem from="1652752234641" duration="11027000" />
+      <workItem from="1652752234641" duration="12148000" />
     </task>
+    <task id="LOCAL-00001" summary="Add functions.js. Add function calculate that can use name to get an test index.">
+      <created>1652804826585</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1652804826585</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,5 +90,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add functions.js. Add function calculate that can use name to get an test index." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add functions.js. Add function calculate that can use name to get an test index." />
   </component>
 </project>
