@@ -7,7 +7,9 @@ const port=3000;
 const app=express();
 
 app.listen(port, function() {
-    console.log("Server is listening at port:" + port);
+    console.log("Server is listening at port:" + port
+        + "\n" + "Please enter your name, birthday, and gender, respectively."
+        + "\n" + "birthday should be in format of MM/DD/YYYY, gender should be male or female.");
 });
 
 // Parses the text as url encoded data
