@@ -8,7 +8,7 @@ module.exports = {
             char_code += currCode;
         }
 
-        return char_code % 10;
+        return char_code % 3;
     },
 
     calculate_per2: function (birth) {
@@ -20,7 +20,7 @@ module.exports = {
             char_code += currCode;
         }
 
-        return char_code % 10;
+        return char_code % 3;
     },
 
     calculate_per3: function (name, gender) {
@@ -33,14 +33,14 @@ module.exports = {
             char_code += currCode;
         }
 
-        return char_code % 10;
+        return char_code % 3;
     },
 
     get_category: function (birth) {
         var year = Number(birth.slice(6, 10));
         var month = Number(birth.slice(0, 2));
 
-        return (year + month) % 5;
+        return (year + month) % 3;
     }
 }
 

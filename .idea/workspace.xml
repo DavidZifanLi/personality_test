@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e83652b-5d4e-4c05-b257-00257b01b999" name="Changes" comment="Apply birthday into calculation">
-      <change afterPath="$PROJECT_DIR$/models/model_1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/model_2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/model_3.js" afterDir="false" />
+    <list default="true" id="5e83652b-5d4e-4c05-b257-00257b01b999" name="Changes" comment="Divide reviews into several categories. Apply gender into calculation.">
+      <change afterPath="$PROJECT_DIR$/README" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/api.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/functions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,17 +34,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/MyFiles/Interns/theVolley/personality_test",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "E:\\Intelij\\IntelliJ IDEA 2022.1.1\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/MyFiles/Interns/theVolley/personality_test&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;E:\\Intelij\\IntelliJ IDEA 2022.1.1\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\MyFiles\Interns\theVolley\personality_test" />
@@ -79,7 +75,8 @@
       <workItem from="1652623973441" duration="607000" />
       <workItem from="1652713448212" duration="16247000" />
       <workItem from="1652752234641" duration="13648000" />
-      <workItem from="1652839349962" duration="5193000" />
+      <workItem from="1652839349962" duration="8016000" />
+      <workItem from="1652931367467" duration="11140000" />
     </task>
     <task id="LOCAL-00001" summary="Add functions.js. Add function calculate that can use name to get an test index.">
       <created>1652804826585</created>
@@ -95,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652807034609</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Divide reviews into several categories. Apply gender into calculation.">
+      <created>1652885274543</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1652885274543</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +119,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add functions.js. Add function calculate that can use name to get an test index." />
     <MESSAGE value="Apply birthday into calculation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Apply birthday into calculation" />
+    <MESSAGE value="Divide reviews into several categories. Apply gender into calculation." />
+    <option name="LAST_COMMIT_MESSAGE" value="Divide reviews into several categories. Apply gender into calculation." />
   </component>
 </project>

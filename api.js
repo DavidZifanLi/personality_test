@@ -20,28 +20,6 @@ mongoose.connect(db, { useNewUrlParser : true,
     }
 });
 
-router.get('/findall', function(req, res) {
-    Model.find(function(err, data) {
-        if(err){
-            console.log(err);
-        }
-        else{
-            res.send(data);
-        }
-    });
-});
-
-router.get('/findfirst', function(req, res) {
-    Model.findOne({index: 2},
-        function(err, data) {
-            if(err){
-                console.log(err);
-            }
-            else{
-                res.send(data);
-            }
-        });
-});
 
 router.get('/name_birth_test/', function(req, res) {
     const {name, birth, gender} = req.query;
@@ -55,7 +33,7 @@ router.get('/name_birth_test/', function(req, res) {
     }
 
     // Check if gender is valid.
-    if (gender !== "male" || gender !== "female") {
+    if (gender !== "male" && gender !== "female" && gender !== "other") {
         res.statusMessage = "Please enter a valid gender.";
         return res.status(400).end();
     }
@@ -85,10 +63,10 @@ router.get('/name_birth_test/', function(req, res) {
     const index_2 = tools.calculate_per2(birth);
     const index_3 = tools.calculate_per3(name, gender);
 
-    var file_1;
-    var file_2;
-    var file_3;
-    var response_data;
+    var file_1 = [];
+    // var file_2 = [];
+    // var file_3 = [];
+    // var response_data = [];
 
     Model_1.findOne({"category": category, "index": index_1},
         function(err, data) {
@@ -96,37 +74,51 @@ router.get('/name_birth_test/', function(req, res) {
                 console.log(err);
             }
             else{
-                file_1 = data;
+                file_1.push(data.review);
+
+                Model_2.findOne({"category": category, "index": index_2},
+                    function(err, data) {
+                        if(err){
+                            console.log(err);
+                        }
+                        else{
+                            file_1.push(data.review);
+                            Model_3.findOne({"category": category, "index": index_3},
+                                function(err, data) {
+                                    if(err){
+                                        console.log(err);
+                                    }
+                                    else{
+                                        file_1.push(data.review);
+                                        res.send(file_1)
+                                    }
+                                });
+                        }
+                    });
             }
         });
 
-    Model_2.findOne({"category": category, "index": index_2},
-        function(err, data) {
-            if(err){
-                console.log(err);
-            }
-            else{
-                file_2 = data;
-            }
-        });
-
-    Model_3.findOne({"category": category, "index": index_3},
-        function(err, data) {
-            if(err){
-                console.log(err);
-            }
-            else{
-                file_3 = data;
-            }
-        });
-
-    response_data = file_1['review'] +
-        '\n' +
-        file_2['review'] +
-        '\n' +
-        file_3['review'];
-
-    res.send(response_data);
+    // Model_2.findOne({"category": category, "index": index_2},
+    //     function(err, data) {
+    //         if(err){
+    //             console.log(err);
+    //         }
+    //         else{
+    //             file_2.push(data.review);
+    //             //res.send(file_2)
+    //         }
+    //     });
+    //
+    // Model_3.findOne({"category": category, "index": index_3},
+    //     function(err, data) {
+    //         if(err){
+    //             console.log(err);
+    //         }
+    //         else{
+    //             file_3.push(data.review);
+    //             // res.send(file_3)
+    //         }
+    //     });
 });
 
 
