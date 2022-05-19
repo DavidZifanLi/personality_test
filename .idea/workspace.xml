@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e83652b-5d4e-4c05-b257-00257b01b999" name="Changes" comment="Divide reviews into several categories. Apply gender into calculation.">
-      <change afterPath="$PROJECT_DIR$/README" afterDir="false" />
+    <list default="true" id="5e83652b-5d4e-4c05-b257-00257b01b999" name="Changes" comment="Solve the response problem of three findOnes. Add README.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/functions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +74,7 @@
       <workItem from="1652713448212" duration="16247000" />
       <workItem from="1652752234641" duration="13648000" />
       <workItem from="1652839349962" duration="8016000" />
-      <workItem from="1652931367467" duration="11140000" />
+      <workItem from="1652931367467" duration="12504000" />
     </task>
     <task id="LOCAL-00001" summary="Add functions.js. Add function calculate that can use name to get an test index.">
       <created>1652804826585</created>
@@ -99,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652885274543</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Solve the response problem of three findOnes. Add README.">
+      <created>1652977221710</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1652977221710</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +125,7 @@
     <MESSAGE value="Add functions.js. Add function calculate that can use name to get an test index." />
     <MESSAGE value="Apply birthday into calculation" />
     <MESSAGE value="Divide reviews into several categories. Apply gender into calculation." />
-    <option name="LAST_COMMIT_MESSAGE" value="Divide reviews into several categories. Apply gender into calculation." />
+    <MESSAGE value="Solve the response problem of three findOnes. Add README." />
+    <option name="LAST_COMMIT_MESSAGE" value="Solve the response problem of three findOnes. Add README." />
   </component>
 </project>
